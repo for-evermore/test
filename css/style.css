@@ -1549,6 +1549,7 @@ a.btn {
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;
+    z-index: 105;
   }
   .menu-wrapper {
     position: relative;
