@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/iconfonts/icons.eot?1umb0o');
+  src:  url('../fonts/iconfonts/icons.eot?1umb0o#iefix') format('embedded-opentype'),
+    url('../fonts/iconfonts/icons.ttf?1umb0o') format('truetype'),
+    url('../fonts/iconfonts/icons.woff?1umb0o') format('woff'),
+    url('../fonts/iconfonts/icons.svg?1umb0o#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, 
+[class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-socials_fb:before {
+  content: "\e901";
+}
+._icon-socials_insta:before {
+  content: "\e902";
+}
+._icon-socials_tg:before {
+  content: "\e903";
+}
+._icon-phone:before {
+  content: "\e900";
+}
+._icon-cart:before {
+  content: "\e904";
+}
+._icon-scroll-down:before {
+  content: "\e905";
+}
+._icon-calendar:before {
+  content: "\e906";
+}
+._icon-map-pin:before {
+  content: "\e907";
+}
+._icon-glyanec-team:before {
+  content: "\e908";
+}
