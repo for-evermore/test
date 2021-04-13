@@ -21,6 +21,7 @@ body {
   line-height: 1.25;
   color: var(--clr-primary, #000);
   scroll-behavior: smooth;
+  background-color: #ffffff;
 }
 
 /* *** BASE */
