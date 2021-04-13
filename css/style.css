@@ -45,7 +45,6 @@ hr {
 
 /* *** OBJECTS */
 .container {
-  outline: 1px solid green;
   max-width: 1842px;
   width: 100%;
   padding-left: 12px;
